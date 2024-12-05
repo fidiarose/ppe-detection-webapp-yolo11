@@ -21,7 +21,7 @@ def generate_video_frames(source='upload'):
     """
     Generate video frames for streaming
     
-    :param source: Source of video frames ('upload', 'webcam')
+    :param source: Source of video frames ('webcam')
     """
     try:
         if source == 'upload':
